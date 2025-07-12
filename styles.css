@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+    /*border: 1px dashed red*/
+}
+
+body {
+	justify-content: center;
+	align-items: center;
+    background-color: #dcdcdc;
+}
+
+h1 {
+    text-align: center; 
+    background-color: white;
+}
+.Padre {
+        background-color: #dcdcdc;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+       
+
+}
+.Feed1 {
+
+	width: 450px;
+	height: 320px;
+    padding: 100px;
+    grid-column: 2 / 3;
+
+    
+}
+.Header1 {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+.FechaFoto {
+    color: black;
+    width: 225px;
+    text-align: right;
+}
+.NombreFoto {
+    width: 225px;
+    float: left;
+}
+.Foto1 {
+    margin: none;
+    width: 450px;
+    height: 320px;
+}
+img {
+    width: 450px;
+    height: 320px;
+    background-color: white;
+
+}
+.Footer1 {
+    padding: 10px;
+    background-color: white;
+    margin-top: none;
+   
+}
